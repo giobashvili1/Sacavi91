@@ -88,7 +88,7 @@ body{
     padding-right: 160px;
     margin-top: 80px;
     background: #EDF7FA;
-    height: 70vh;
+    height: auto;
 }
 .posts{
     display: flex;
@@ -347,10 +347,7 @@ body{
     display: block;
 }
 @media   screen and (max-width: 768px) {
-    .section2{
-        padding-left: 80px;
-        padding-right: 30px;
-    }
+
     .header{
         display: none;
     }
@@ -360,193 +357,112 @@ body{
     position: absolute;
     top: 5px;
 }
-
-.eclipse1 img{
-    width: 174.38px;
-    height: 180px;
-    margin-right: 82px;
-     margin-top: -35px
+.section2{
+    padding-left: 148px;
+    padding-right: 208px ;
 }
-
-.eclipse2 img{
-    width: 174.38px;
-    height: 180px;
-    margin-right: 81px;
-     margin-top: -28px
+.eclipse1 {
+    margin-right: 80px;
 }
-.john{
-    align-items: center;
-    flex-direction: column;
+.eclipse2{
+    margin-right: 80px;
 }
-.john p{
-    width: 328px;
-    height: 96px;
-    font-family: "heebo";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0px;
-    text-align: center;
-    padding-left: 45px;
-    
-}
-
 .john h3{
-    width: 307px;
+    width: 260px;
     height: 120px;
-    font-family: "heebo";
+    font-family: Heebo;
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0px;
     text-align: center;
-    padding-left: 45px;
-    margin-top: 180px;
-    
+    padding-top: 250px;
+    padding-left: 110px;  
+    margin: 0; 
+}
+.john p{
+    width: 328px;
+    height: 96px;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-left: 80px;
+    margin: 0;
 }
 .john button{
-    width: 208px;
-    height: 47px;
-    border-radius: 2px;
-    background: #FF6464;
-    font-family: "heebo";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 29px;
-    border: none;
-    cursor: pointer;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-   margin-top: 15px;
-   margin-left: 100px;
-
+    margin-left: 140px;
 }
 .section3{
-    background: #EDF7FA;
-   padding-right: 0;
-    gap: 10px
-    ;
-    
+    height: auto;
+    padding-bottom: 45px;
 }
 .posts{
-    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.posts h4 a{
+display: none;
+}
 .posts h4{
-    width: 125px;
-    height: 60px;
-    font-family: "heebo";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 60px;
-    letter-spacing: 0px;
-   float: left;
+    text-align: center;
 }
 .design h3{
-    width: 327px;
-    height: 60px;
-    font-family: "heebo";
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-align: start;
+    margin: 0;
 }
-.spans{
-    width: 333px;
-    height: 24px;
-    
+.section4{
+    padding:0;
 }
-.design{
-    margin-top: 85px;
-    width: 363px;
-    height: 300px;
-    border-radius: 4px;
-    background: #FFFFFF;
-    margin-left: -125px;
-    margin-bottom: -55px 
-   
-    
+.works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.design p{
-    width: 314px;
-    height: 117px;
-    font-family: "heebo";
+.works h4{
+    margin: 0;
+    text-align: center;
+}
+.part-img img{
+    width: 460px;
+    height: 275px;
+    border-radius: 6px;
+}
+.dashboard{
+    padding-top: 0;
+    padding-right: 140px;
+    margin-top: 10px
+;
+
+}
+.works h3{
+    margin: 0;
+    align-items: center;
+}
+.spans2{
+    margin-top: 15px;
+}
+.txt3{
+    width: 344px;
+    height: 96px;
+    font-family: Heebo;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0px;
     text-align: left;
-}
-.section4{
-padding-left: 0;
-}
-.lnk{
-    display: none;
-}
-.visible{
-    display: none;
-}
-.hidden{
-   display: block;
-}
-.works{
-    flex-direction: column;
-    align-items: center;
-}
-.works h4{
-    width: 200px
-    ;
-   padding-left: 50px;
-   margin: 0;
-}
-.works h3{
-    margin-bottom: 5px;
+    
+    
 }
 .hr{
     display: none;
 }
-
-.part-img img{
-    width: 100%;
-    height: 230px;
-    padding-left: 28px;
-    border-radius: 6px;
-    
-}
-.dashboard {
-    width: 344px;
-    padding: 0;
-    /* height: 455px; */
-    margin-left: 60px;
-    
-}
-
-.txt3{
-    width: 344px;
-    height: 96px;
-    
-}
 .works2{
-    height: 0;
     display: none;
 }
 .works3{
-    width: 0;
-    height: 0;
     display: none;
 }
-.section5{
-    padding-top: 10px;
-    margin-bottom: 30px;
-
-   
-}
-.icons{
-    padding-top: 100px;
-    
-}
-
 }
